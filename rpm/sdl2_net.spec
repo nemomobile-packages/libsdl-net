@@ -7,6 +7,8 @@ URL: http://www.libsdl.org/projects/SDL_net/
 License: zlib
 Group: System Environment/Libraries
 BuildRequires: pkgconfig(sdl2)
+BuildRequires: autoconf
+BuildRequires: automake
 
 %description
 This is a portable network library for use with SDL.
